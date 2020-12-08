@@ -14,7 +14,7 @@ body {
 }
 
 body .content {
-  padding-left: 40%;
+  margin-left: 40%;
   position: relative;
   width: 100%;
   display: flex;
@@ -95,7 +95,8 @@ a {
   font-size: 28px;
 }
 .project-title {
-  padding-left: 550px;
+  z-index: 10;
+  margin-left: 550px;
   position: absolute;
   /* margin-top: -40%; */
   writing-mode: tb-rl;
@@ -148,7 +149,7 @@ a {
     }
   .project-title {
     font-size: 24px;
-    padding-left: 150px;
+    margin-left: 150px;
     /* padding-top: 15px;
     padding-left: 15px; */
   }
@@ -161,7 +162,7 @@ a {
 @media(min-width:768px) {
   .project-title {
     font-size: 56px;
-    padding-left: 550px;
+    margin-left: 550px;
   }
   .portfolio-box {
     font-size: 18px;
