@@ -185,6 +185,7 @@ a {
   }
   .navbar {
     font-size: 20px;
+    padding-left: 0px;
   }
   h1 {
     font-size: 20px;
@@ -211,6 +212,7 @@ a {
   }
   .navbar {
     font-size: 26px;
+    padding-left: 0px;
   }
   h1 {
     font-size: 26px;
@@ -238,6 +240,7 @@ a {
   }
   .navbar {
     font-size: 36px;
+    padding-left: 0px;
   }
   h1 {
     font-size: 56px;
