@@ -1,0 +1,179 @@
+/* font-family: 'VT323', monospace; */
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+html,
+body {
+  width: 80%;
+  height: 100%;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  background: #bfc9ff;
+  color: #f7f1ce;
+}
+
+body .content {
+  padding-left: 40%;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    margin-top: 2%;
+}
+  
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 56px;
+    font-weight: normal;
+}
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+.navbar {
+  padding-left: 0px;
+  position: absolute;
+  writing-mode: vertical-rl;
+
+  transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  font-size: 36px;
+
+
+}
+
+a {
+  color: white;
+}
+
+.portfolio-box img {
+    width: 60%;
+    opacity: 1;
+}
+#posters {
+  width: 100%;
+}
+#min {
+  width: 100%;
+  opacity: 1;
+  /* left: 0; */
+  /* right: 20%; */
+  margin-left: 0;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    opacity: 0;
+    transition: 0.3s ease;
+    background-color: rgb(69, 0, 78);
+}
+
+
+.description {
+  padding-top: 10%;
+  padding-left: 15%;
+  padding-right: 10%;
+  font-size: 28px;
+}
+.project-title {
+  padding-left: 550px;
+  position: absolute;
+  /* margin-top: -40%; */
+  writing-mode: tb-rl;
+  /* -webkit-transform: rotate(90deg); */
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* transform: rotate(90deg); */
+  white-space: nowrap;
+  display: block;
+  font-size: 36px;
+}
+
+.portfolio-box:hover .overlay {
+    opacity: 1;
+}
+
+.about-text  {
+    padding-top: 20px;
+    font-size: 30px;
+    width: 60%;
+}
+
+.project-title {
+    color: lightyellow;
+    font-size: 1.5em;
+}
+
+
+/* For different device sizes */
+@media(max-width:450px) {
+  body .content {
+    margin-top: 20px;
+  }
+  .portfolio-box {
+    font-size: 16px;
+  }
+
+  p, .description{
+    font-size: 10px;
+  }
+}
+
+@media(max-width:768px) {
+    header {
+        margin-top: 30px;
+    }
+    body .content {
+        margin-top: -50px;
+    }
+  .project-title {
+    font-size: 24px;
+    padding-left: 150px;
+    /* padding-top: 15px;
+    padding-left: 15px; */
+  }
+  .portfolio-box {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+@media(min-width:768px) {
+  .project-title {
+    font-size: 56px;
+    padding-left: 550px;
+  }
+  .portfolio-box {
+    font-size: 18px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
